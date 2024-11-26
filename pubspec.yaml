@@ -10,15 +10,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  camera_android: ^0.10.9
   camera_avfoundation: ^0.9.15
   camera_platform_interface: ^2.6.0
   camera_web: ^0.3.3
   flutter_plugin_android_lifecycle: ^2.0.2
-dependency_overrides:
-  camera_android: 0.10.9
-  camera_avfoundation: 0.9.15
-  camera_platform_interface: 2.6.0
+  candro_p:
+   git : https://github.com/daniertg/candro_p.git
+   ref : main
 dev_dependencies:
   flutter_test:
     sdk: flutter
